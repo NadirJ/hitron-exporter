@@ -2,10 +2,10 @@ package collector
 
 import "fmt"
 
-func Example_parseUptime() {
-	fmt.Println(parseDuration("05 Days,21 Hours,33 Minutes,44 Seconds"))
-	// Output: 509624
-}
+// func Example_parseUptime() {
+// 	fmt.Println(parseDuration("05 Days,21 Hours,33 Minutes,44 Seconds"))
+// 	// Output: 509624
+// }
 
 func Example_parsePkt() {
 	fmt.Printf("%.2f", parsePkt("1.61G Bytes"))
